@@ -1,0 +1,58 @@
+# -------------------------
+# Eclipse specific
+# -------------------------
+.metadata/
+.classpath
+.project
+.settings/
+
+# Eclipse build directories
+bin/
+tmp/
+
+# -------------------------
+# Java specific
+# -------------------------
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# -------------------------
+# OS specific (윈도우/맥/리눅스)
+# -------------------------
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# -------------------------
+# IDEs (기타 IDE를 열었을 때 대비)
+# -------------------------
+.vscode/
+.idea/
+*.iml
+
+# -------------------------
+# Logs / Temp files
+# -------------------------
+*.log
+*.swp
+*.swo
+
+# -------------------------
+# Web / HTML projects
+# -------------------------
+node_modules/     # (만약 JS 라이브러리 설치했다면)
+dist/             # (빌드 결과물)
+.env              # (환경 변수 파일, 있으면)
